@@ -7,6 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
+package 'curl'
 package 'git-core'
 
 $user  = node['nvm']['user']
@@ -28,8 +29,8 @@ grep nvm.sh #{$home}/.bashrc
 
 if [ $? -eq 1 ]
   then
-    echo -e '\n\n. ~/.nvm/nvm.sh' >> #{$home}/.bashrc
-    . ~/.nvm/nvm.sh
+    echo '\n\n. ~/.nvm/nvm.sh' >> #{$home}/.bashrc
+    . #{$home}/.nvm/nvm.sh
 fi
   EOF
 
