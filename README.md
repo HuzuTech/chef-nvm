@@ -1,12 +1,9 @@
-Description
-===========
+#chef-nvm
 
-Requirements
-============
+Forked from https://github.com/gosquared/chef-nvm.
 
-Attributes
-==========
+This will install nvm and, if you specify one or more versions of node
+to install, node and npm, for the specified user.
 
-Usage
-=====
-
+Only Ubuntu is supported, and the recipe is intended to be run on a
+Vagrant box.
