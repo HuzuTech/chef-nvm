@@ -2,10 +2,6 @@
 # Cookbook Name:: nvm
 # Recipe:: default
 #
-# Copyright 2012, action.io
-#
-# All rights reserved - Do Not Redistribute
-#
 
 package 'curl'
 package 'git-core'
